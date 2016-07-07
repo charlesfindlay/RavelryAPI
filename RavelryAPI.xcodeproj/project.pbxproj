@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		560FFFB21D2DEFA900FEB31C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560FFFB11D2DEFA900FEB31C /* AppDelegate.swift */; };
+		560FFFB41D2DEFA900FEB31C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560FFFB31D2DEFA900FEB31C /* ViewController.swift */; };
+		560FFFB71D2DEFA900FEB31C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 560FFFB51D2DEFA900FEB31C /* Main.storyboard */; };
+		560FFFB91D2DEFA900FEB31C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 560FFFB81D2DEFA900FEB31C /* Assets.xcassets */; };
+		560FFFBC1D2DEFA900FEB31C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 560FFFBA1D2DEFA900FEB31C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		560FFFAE1D2DEFA900FEB31C /* RavelryAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RavelryAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		560FFFB11D2DEFA900FEB31C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		560FFFB31D2DEFA900FEB31C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		560FFFB61D2DEFA900FEB31C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		560FFFB81D2DEFA900FEB31C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		560FFFBB1D2DEFA900FEB31C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		560FFFBD1D2DEFA900FEB31C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		560FFFAB1D2DEFA900FEB31C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		560FFFA51D2DEFA900FEB31C = {
+			isa = PBXGroup;
+			children = (
+				560FFFB01D2DEFA900FEB31C /* RavelryAPI */,
+				560FFFAF1D2DEFA900FEB31C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		560FFFAF1D2DEFA900FEB31C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				560FFFAE1D2DEFA900FEB31C /* RavelryAPI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		560FFFB01D2DEFA900FEB31C /* RavelryAPI */ = {
+			isa = PBXGroup;
+			children = (
+				560FFFB11D2DEFA900FEB31C /* AppDelegate.swift */,
+				560FFFB31D2DEFA900FEB31C /* ViewController.swift */,
+				560FFFB51D2DEFA900FEB31C /* Main.storyboard */,
+				560FFFB81D2DEFA900FEB31C /* Assets.xcassets */,
+				560FFFBA1D2DEFA900FEB31C /* LaunchScreen.storyboard */,
+				560FFFBD1D2DEFA900FEB31C /* Info.plist */,
+			);
+			path = RavelryAPI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		560FFFAD1D2DEFA900FEB31C /* RavelryAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 560FFFC01D2DEFA900FEB31C /* Build configuration list for PBXNativeTarget "RavelryAPI" */;
+			buildPhases = (
+				560FFFAA1D2DEFA900FEB31C /* Sources */,
+				560FFFAB1D2DEFA900FEB31C /* Frameworks */,
+				560FFFAC1D2DEFA900FEB31C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RavelryAPI;
+			productName = RavelryAPI;
+			productReference = 560FFFAE1D2DEFA900FEB31C /* RavelryAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		560FFFA61D2DEFA900FEB31C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Charles Findlay";
+				TargetAttributes = {
+					560FFFAD1D2DEFA900FEB31C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 560FFFA91D2DEFA900FEB31C /* Build configuration list for PBXProject "RavelryAPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 560FFFA51D2DEFA900FEB31C;
+			productRefGroup = 560FFFAF1D2DEFA900FEB31C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				560FFFAD1D2DEFA900FEB31C /* RavelryAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		560FFFAC1D2DEFA900FEB31C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				560FFFBC1D2DEFA900FEB31C /* LaunchScreen.storyboard in Resources */,
+				560FFFB91D2DEFA900FEB31C /* Assets.xcassets in Resources */,
+				560FFFB71D2DEFA900FEB31C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		560FFFAA1D2DEFA900FEB31C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				560FFFB41D2DEFA900FEB31C /* ViewController.swift in Sources */,
+				560FFFB21D2DEFA900FEB31C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		560FFFB51D2DEFA900FEB31C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				560FFFB61D2DEFA900FEB31C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		560FFFBA1D2DEFA900FEB31C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				560FFFBB1D2DEFA900FEB31C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		560FFFBE1D2DEFA900FEB31C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		560FFFBF1D2DEFA900FEB31C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		560FFFC11D2DEFA900FEB31C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RavelryAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charlesfindlay.RavelryAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		560FFFC21D2DEFA900FEB31C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RavelryAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charlesfindlay.RavelryAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		560FFFA91D2DEFA900FEB31C /* Build configuration list for PBXProject "RavelryAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				560FFFBE1D2DEFA900FEB31C /* Debug */,
+				560FFFBF1D2DEFA900FEB31C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		560FFFC01D2DEFA900FEB31C /* Build configuration list for PBXNativeTarget "RavelryAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				560FFFC11D2DEFA900FEB31C /* Debug */,
+				560FFFC21D2DEFA900FEB31C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 560FFFA61D2DEFA900FEB31C /* Project object */;
+}
