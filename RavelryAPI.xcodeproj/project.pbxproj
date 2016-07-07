@@ -12,9 +12,11 @@
 		560FFFB71D2DEFA900FEB31C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 560FFFB51D2DEFA900FEB31C /* Main.storyboard */; };
 		560FFFB91D2DEFA900FEB31C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 560FFFB81D2DEFA900FEB31C /* Assets.xcassets */; };
 		560FFFBC1D2DEFA900FEB31C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 560FFFBA1D2DEFA900FEB31C /* LaunchScreen.storyboard */; };
+		F3B3180D69805C2401102EAD /* libPods-RavelryAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3C0CADCDC8A265C1FA590C /* libPods-RavelryAPI.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		128693EA8EB248D24EB2DE0B /* Pods-RavelryAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RavelryAPI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RavelryAPI/Pods-RavelryAPI.debug.xcconfig"; sourceTree = "<group>"; };
 		560FFFAE1D2DEFA900FEB31C /* RavelryAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RavelryAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		560FFFB11D2DEFA900FEB31C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		560FFFB31D2DEFA900FEB31C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,9 @@
 		560FFFB81D2DEFA900FEB31C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		560FFFBB1D2DEFA900FEB31C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		560FFFBD1D2DEFA900FEB31C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		560FFFCA1D2E127200FEB31C /* RavelryAPI-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RavelryAPI-Bridging-Header.h"; sourceTree = "<group>"; };
+		CE051078440985405BF1E18B /* Pods-RavelryAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RavelryAPI.release.xcconfig"; path = "Pods/Target Support Files/Pods-RavelryAPI/Pods-RavelryAPI.release.xcconfig"; sourceTree = "<group>"; };
+		EC3C0CADCDC8A265C1FA590C /* libPods-RavelryAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RavelryAPI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3B3180D69805C2401102EAD /* libPods-RavelryAPI.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +46,8 @@
 			children = (
 				560FFFB01D2DEFA900FEB31C /* RavelryAPI */,
 				560FFFAF1D2DEFA900FEB31C /* Products */,
+				D4CEDDCA5156521277513A44 /* Pods */,
+				EE1A074EC34CFA6C126A1D20 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +68,26 @@
 				560FFFB81D2DEFA900FEB31C /* Assets.xcassets */,
 				560FFFBA1D2DEFA900FEB31C /* LaunchScreen.storyboard */,
 				560FFFBD1D2DEFA900FEB31C /* Info.plist */,
+				560FFFCA1D2E127200FEB31C /* RavelryAPI-Bridging-Header.h */,
 			);
 			path = RavelryAPI;
+			sourceTree = "<group>";
+		};
+		D4CEDDCA5156521277513A44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				128693EA8EB248D24EB2DE0B /* Pods-RavelryAPI.debug.xcconfig */,
+				CE051078440985405BF1E18B /* Pods-RavelryAPI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE1A074EC34CFA6C126A1D20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC3C0CADCDC8A265C1FA590C /* libPods-RavelryAPI.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +97,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 560FFFC01D2DEFA900FEB31C /* Build configuration list for PBXNativeTarget "RavelryAPI" */;
 			buildPhases = (
+				F06127E69F98AACE24FAA3F4 /* [CP] Check Pods Manifest.lock */,
 				560FFFAA1D2DEFA900FEB31C /* Sources */,
 				560FFFAB1D2DEFA900FEB31C /* Frameworks */,
 				560FFFAC1D2DEFA900FEB31C /* Resources */,
+				B1D6B8BF7A5123918D059E7C /* [CP] Embed Pods Frameworks */,
+				169388D754CF2E0F2A354354 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +158,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		169388D754CF2E0F2A354354 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RavelryAPI/Pods-RavelryAPI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1D6B8BF7A5123918D059E7C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RavelryAPI/Pods-RavelryAPI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F06127E69F98AACE24FAA3F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		560FFFAA1D2DEFA900FEB31C /* Sources */ = {
@@ -249,23 +326,30 @@
 		};
 		560FFFC11D2DEFA900FEB31C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 128693EA8EB248D24EB2DE0B /* Pods-RavelryAPI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = RavelryAPI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.charlesfindlay.RavelryAPI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RavelryAPI/RavelryAPI-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		560FFFC21D2DEFA900FEB31C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE051078440985405BF1E18B /* Pods-RavelryAPI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = RavelryAPI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.charlesfindlay.RavelryAPI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RavelryAPI/RavelryAPI-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -288,6 +372,7 @@
 				560FFFC21D2DEFA900FEB31C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
